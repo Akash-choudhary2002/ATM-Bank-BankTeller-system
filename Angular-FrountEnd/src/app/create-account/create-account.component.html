@@ -1,0 +1,24 @@
+<h1 class="text-center">Create Account</h1>
+
+<form (ngSubmit)="onsubmit()">
+     <div class="form-group">
+        <label>accountHolderName</label>
+        <input 
+        type="text" 
+        id="accountHolderName"
+        class="form-control"
+        name="accountHolderName"
+        placeholder="Enter Account Holder Name" 
+        [(ngModel)]="account.accountHolderName" 
+        />
+     </div>
+     <div>
+           <label for="">balance</label>
+           <input  type="text" id="balance"class="form-control" name="balance" placeholder="EnterBalance"
+         [(ngModel)]="account.balance"/>  
+
+     </div>
+     <br>
+      <button type="submit" class="btn btn-success  form-control">Success</button>
+</form>
+<!-- Bandhan Bank Recruitment 2025 | No Exam | No Fee | Bandhan Bank Jobs | Bank Job For Freshers  -->
